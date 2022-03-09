@@ -1,0 +1,166 @@
+.aboutme-body {
+  height: 850px;
+  padding-bottom: 150px;
+  box-sizing: border-box;
+}
+
+.aboutme-heading {
+  font-size: 40px;
+  text-align: center;
+  height: 100px;
+  font-family: Poppins, sans-serif;
+
+  /* margin-top: 0px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutme-heading1 {
+  border-bottom: solid 4px #ff4321;
+}
+
+.about-info-section {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+  height: 480px;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+
+.aboutimage {
+  width: 50%;
+}
+
+.aboutimage img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+}
+
+.aboutinfo {
+  width: 50%;
+}
+
+.info-greet {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+  text-decoration: none solid rgb(51, 51, 51);
+  margin-bottom: 20px;
+}
+
+.aboutinfo-1 {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  text-decoration: none solid rgb(51, 51, 51);
+  text-align: justify;
+  word-spacing: 2px;
+  /* letter-spacing: 1px; */
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-weight: 500;
+}
+
+.info-button {
+  margin-top: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-button {
+  font-family: Poppins, sans-serif;
+  font-size: 25px;
+  text-decoration: none solid rgb(31, 34, 53);
+  height: 50px;
+  width: 240px;
+  border: 2px solid #ff4321;
+  margin: 0 154px 0 154px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s linear 0s;
+  text-decoration: none;
+  color: black;
+}
+
+.about-button:hover {
+  transition: all 0.5s linear 0s;
+  color: white;
+  background-color: #ff4321;
+}
+
+/* Responsive Code */
+
+@media only screen and (max-width: 480px) {
+  .aboutme-body {
+    height: 145rem;
+    padding-bottom: 1450px;
+    box-sizing: border-box;
+    width: 200%;
+  }
+
+  .aboutme-heading {
+    font-size: 90px;
+    margin-top: 150px;
+    text-align: center;
+  }
+
+  .about-info-section {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 580px;
+  }
+
+  .aboutimage {
+    width: 70%;
+    margin-left: 120px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+  }
+
+  .aboutimage img {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+  }
+
+  .aboutinfo {
+    width: 100%;
+  }
+
+  .info-greet {
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+  }
+
+  .aboutinfo-1 {
+    font-size: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .about-button {
+    font-size: 50px;
+    height: 120px;
+    width: 30rem;
+    margin: 100px auto 50px auto;
+  }
+}

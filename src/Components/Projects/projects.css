@@ -1,0 +1,181 @@
+.projects-body {
+  height: 850px;
+}
+
+.card-body {
+  margin-top: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+  /* border: solid 3px #ff4321; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-info {
+  width: 360px;
+  height: 260px;
+  border: solid 3px #ff4321;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 20px 2px;
+  cursor: pointer;
+}
+
+.card-icons-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 0 5px;
+}
+
+.card-icons-gitlogo {
+  font-size: 40px;
+  color: black;
+  /* border: solid 3px #ff4321; */
+}
+
+.card-icons-gitlogo:hover {
+  color: #ff4321;
+}
+
+.card-icons-rocket {
+  font-size: 40px;
+  color: black;
+  /* border: solid 3px #ff4321; */
+  transition: all 0.5s linear 0s;
+}
+
+.card-icons-rocket:hover {
+  font-size: 60px;
+  transition: all 0.5s linear 0s;
+}
+
+.card-content-title {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  /* border: solid 3px black; */
+  margin-top: 20px;
+  margin-left: 5px;
+  height: 30px;
+}
+
+.card-content-body {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  /* border: solid 3px black; */
+  font-family: Poppins, sans-serif;
+  font-size: 17.6px;
+  text-decoration: none solid rgb(120, 120, 120);
+  text-align: justify;
+  /* color: #787878; */
+  color: black;
+}
+
+.card-content-body span {
+  display: none;
+  font-size: 17.6px;
+  font-weight: 700;
+  color: black;
+  /* color: #787878; */
+}
+
+@media only screen and (max-width: 480px) {
+  .projects-body {
+    height: 220rem;
+    width: 200%;
+    box-sizing: border-box;
+  }
+
+  .aboutme-heading {
+    font-size: 90px;
+    margin-top: 150px;
+    text-align: center;
+  }
+
+  .aboutme-heading1 {
+    border-bottom: solid 4px #ff4321;
+  }
+  .card-body {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 190rem;
+  }
+
+  .card-info {
+    /* width: 100%; */
+    width: 600px;
+    height: 450px;
+    border: solid 3px #ff4321;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 20px 2px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-icons-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 0 5px;
+  }
+
+  .card-icons-gitlogo {
+    font-size: 80px;
+    color: black;
+    /* border: solid 3px #ff4321; */
+  }
+
+  .card-icons-gitlogo:hover {
+    color: #ff4321;
+  }
+
+  .card-icons-rocket {
+    font-size: 80px;
+    color: black;
+    /* border: solid 3px #ff4321; */
+    transition: all 0.5s linear 0s;
+  }
+
+  .card-icons-rocket:hover {
+    font-size: 60px;
+    transition: all 0.5s linear 0s;
+  }
+
+  .card-content-title {
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    /* border: solid 3px black; */
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 80px;
+  }
+
+  .card-content-body {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    /* border: solid 3px black; */
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    text-decoration: none solid rgb(120, 120, 120);
+    text-align: justify;
+    /* color: #787878; */
+    color: black;
+  }
+
+  .card-content-body span {
+    /* display: none; */
+    font-size: 18.6px;
+    font-weight: 700;
+    color: black;
+    /* color: #787878; */
+    /* margin-top: 20px; */
+  }
+}
